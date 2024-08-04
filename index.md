@@ -88,12 +88,3 @@ __Lucasian professor of Mathematics__, Cambridge University
 <!-- ### Footer
 
 Last updated: May 2013 -->
-
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
