@@ -2,6 +2,15 @@
 layout: cv
 title: Gregory Whitmore's CV
 ---
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
 # Gregory Whitmore
 Data Analyst, 3D Creator, Polymath.
 
